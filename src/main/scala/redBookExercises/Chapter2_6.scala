@@ -2,6 +2,7 @@ package redBookExercises
 
 import scala.annotation.tailrec
 
+// Polymorphic functions
 
 def isSorted[T](d: Array[T], f: (T, T) => Boolean): Boolean =
   @tailrec
