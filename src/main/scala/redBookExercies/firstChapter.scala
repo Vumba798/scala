@@ -12,6 +12,6 @@ class firstChapter {
 
     go(d.head, d.tail)
 
-  def
+  def partiall[A, B, C](a: A, f: (A, B) => C): B => C = (b: B) => f(a, b)
 
 }
