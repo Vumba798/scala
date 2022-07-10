@@ -1,4 +1,5 @@
 package redBookExercises.Chapter3
+/*
 
 sealed trait Tree[+A]
 case class Leaf[A](value: A) extends Tree[A]
@@ -40,3 +41,4 @@ object Tree {
   def depth1[A](t: Tree[A]): Int = fold(t)(x => 1)(1 + _ max _)
 }
 
+ */

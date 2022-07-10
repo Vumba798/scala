@@ -1,3 +1,4 @@
+/*
 class Algorithms {
   def insert(x: Int, xs: List[Int]): List[Int] = xs match {
     case Nil => x :: Nil
@@ -11,3 +12,6 @@ class Algorithms {
       case y :: ys => this.insert(y, insertionSort(ys))
     }
 }
+
+
+ */

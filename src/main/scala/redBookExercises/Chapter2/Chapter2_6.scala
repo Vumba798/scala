@@ -4,6 +4,7 @@ import scala.annotation.tailrec
 
 // Polymorphic functions
 
+  /*
 def isSorted[T](d: Array[T], f: (T, T) => Boolean): Boolean =
   @tailrec
   def go(head: T, tail: Array[T]): Boolean =
@@ -23,3 +24,5 @@ def uncurry[A, B, C](f: A => B => C): (A, B) => C =
 
 def compose[A, B, C](f: B => C, g: A => B): A => C =
   (a: A) => f(g(a))
+
+   */

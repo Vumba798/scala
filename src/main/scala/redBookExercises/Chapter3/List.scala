@@ -2,6 +2,7 @@ package redBookExercises.Chapter3
 
 import scala.annotation.tailrec
 
+  /*
 sealed trait List[+A]
 
 case object Nil extends List[Nothing]
@@ -192,3 +193,4 @@ def hasSubsequence[A](l: List[A], sub: List[A]): Boolean =
   val n = length(l) - length(sub) + 1
   go(l, sub, n)
 
+   */
