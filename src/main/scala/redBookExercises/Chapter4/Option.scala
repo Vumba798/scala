@@ -44,7 +44,7 @@ object MyMatch {
     try {
       Some(Pattern.compile(s))
     } catch {
-      case PatternSyntaxException => None
+      case e: PatternSyntaxException => None
     }
 
   def mkMatcher(pat: String): Option[String => Boolean] =
